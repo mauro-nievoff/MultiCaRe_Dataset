@@ -7,3 +7,5 @@ Dataset creation consisted in the following steps:
 2. [Extracting article metadata and relevant content](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/2.%20Data%20Extraction%20from%20PMC's%20Case%20Reports)
 3. [Turning captions into image labels](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/3.%20Turning%20Captions%20into%20Image%20Labels.ipynb)
 4. [Image preprocessing](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/4.%20Image%20Preprocessing.ipynb)
+
+Don't doubt to reach out if you have any doubt, comment or feedback. Thank you!
