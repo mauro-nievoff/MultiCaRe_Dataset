@@ -5,6 +5,7 @@ import json
 import pandas as pd
 import ast
 from datetime import datetime
+import requests
 
 class MedicalDatasetCreator():
 
