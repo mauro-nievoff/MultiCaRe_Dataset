@@ -62,7 +62,18 @@ class MedicalDatasetCreator():
   def _download_dataset(self):
 
     '''Method used to download and unzip the MultiCaRe Dataset from Zenodo.'''
-    !wget -O multicare.zip "https://zenodo.org/api/records/10079370/files-archive"
+
+    response = requests.get("https://zenodo.org/api/records/10079370/files-archive", stream=True)
+
+    if response.status_code == 200:
+      # Open the local file for writing in binary mode
+      with open("multicare.zip", 'wb') as file:
+        # Iterate over the content of the response and write to the file
+        for chunk in response.iter_content(chunk_size=128):
+          file.write(chunk)
+    else:
+      print(f"Failed to download file. Status code: {response.status_code}")
+
     shutil.unpack_archive('multicare.zip', self.whole_dataset_path)
     os.remove('multicare.zip')
     for i in range(9):
