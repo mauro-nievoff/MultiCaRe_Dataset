@@ -1,6 +1,6 @@
-# 🏥 MultiCaRe Dataset Notebooks
+# 🏥 MultiCaRe - Customized Medical Dataset Creation
 
-This repository contains sample notebooks to show how the [MultiCaRe Dataset](https://zenodo.org/records/10079370) was created. The code included in them is a simplified version of the actual code used.
+This repository contains sample notebooks to show how the [MultiCaRe Dataset](https://zenodo.org/records/10079370) was created.
 
 Dataset creation consisted in the following steps:
 1. [Querying case reports from PubMed](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/1.%20How%20to%20Query%20Case%20Reports%20from%20PubMed%20using%20BioPython.ipynb)
