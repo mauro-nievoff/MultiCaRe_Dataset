@@ -393,4 +393,4 @@ if __name__ == "__main__":
   filter_list = [{'field': 'min_age', 'string_list': ['18']},
                  {'field': 'max_age', 'string_list': ['65']},
                  {'field': 'normalized_extractions', 'string_list': ['ct']}]
-  mdc.create_dataset(dataset_name = 'readme_test_3', filter_list = filter_list, dataset_type = 'multimodal')
+  mdc.create_dataset(dataset_name = 'ct_scan_data', filter_list = filter_list, dataset_type = 'multimodal')
