@@ -58,7 +58,7 @@ class MedicalDatasetCreator():
     self.gender_list = list(set([c['gender'] for case_list in self.full_cases['cases'] for c in case_list]))
     self.image_label_list = [l for l in self.full_image_metadata_df.generic_label.explode().unique() if type(l) == str]
     self.normalized_extraction_list = {column: [l for l in self.full_image_metadata_df[f"{column}"].explode().unique() if type(l) == str] for column in self.full_image_metadata_df.columns[8:-1]}
-    print('Done! Now you can create as many datasets based on MultiCaRe as you want!')
+    print('Done!')
 
   def _download_dataset(self):
 
