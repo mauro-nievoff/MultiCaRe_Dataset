@@ -24,7 +24,7 @@ class MedicalDatasetCreator():
 
     ### The MultiCaRe Dataset is downloaded and unpacked
     if os.listdir(self.whole_dataset_path) == []:
-      print('Downloading the MultiCaRe Dataset from Zenodo. This may take 5 to 10 minuts.')
+      print('Downloading the MultiCaRe Dataset from Zenodo. This may take 5 to 10 minutes.')
       self._download_dataset()
     else:
       print('The MultiCaRe Dataset is already downloaded.')
