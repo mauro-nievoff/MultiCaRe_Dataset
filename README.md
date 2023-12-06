@@ -120,6 +120,12 @@ __Citation Information:__
  'link': 'https://pubmed.ncbi.nlm.nih.gov/36938309/',
  'license': 'CC BY-NC'}
 
+## 🤓 How to cite
+If you use this dataset, please cite:
+
+```
+Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal Case Report Dataset with Clinical Cases, Labeled Images and Captions from Open Access PMC Articles (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079370
+```
 ## :wave: Final Words
 
 That's all the basics that you need to know to create a customized subset based on the MultiCaRe Dataset. I hope this was useful! 😄
