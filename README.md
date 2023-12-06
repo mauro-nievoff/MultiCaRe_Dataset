@@ -2,7 +2,7 @@
 
 ## ✅ Introduction
 
-The [MultiCaRe Dataset](https://zenodo.org/records/10079370) is a dataset of clinical cases, images, image labels and captions from open access case reports from PubMed Central. Some facts about this dataset:
+The [MultiCaRe Dataset](https://zenodo.org/records/10079370) is a dataset of clinical cases, images, image labels and captions from open access case reports from PubMed Central. Some facts about it:
 - It contains data from over 75K open-access and de-identified case reports, summing up almost 100K clinical cases and more than 135K images
 - Almost 100K patients and 400K medical doctors and researchers were involved in the creation of the articles included in the dataset (see metadata.parquet for citations)
 - The dataset contains images and cases from different medical specialties, such as oncology, cardiology, surgery and pathology
