@@ -1,7 +1,5 @@
 # 🏥 MultiCaRe - Customized Medical Dataset Creation
 
-## ✅ Introduction
-
 The [MultiCaRe Dataset](https://zenodo.org/records/10079370) is a dataset of clinical cases, images, image labels and captions from open access case reports from PubMed Central. Some facts about it:
 - It contains data from over 75K open-access and de-identified case reports, summing up almost 100K clinical cases and more than 135K images
 - Almost 100K patients and 400K medical doctors and researchers were involved in the creation of the articles included in the dataset (see metadata.parquet for citations)
@@ -9,7 +7,7 @@ The [MultiCaRe Dataset](https://zenodo.org/records/10079370) is a dataset of cli
 
 You can find further details about how the dataset was created by reading the notebooks from the [Dataset_Creation_Process folder](https://github.com/mauro-nievoff/MultiCaRe_Dataset/tree/main/Dataset_Creation_Process).
 
-## 📂 Create Your Own Dataset
+## ✅ Create Your Own Dataset
 
 While you may find the whole dataset useful, you probably only need a subset of it based on your specific use case. In order to create a specific subset, first you need to clone this repository and import the MedicalDatasetCreator class:
 ```python
@@ -38,7 +36,10 @@ Finally, let's create the dataset using these filters and selecting the type of 
 ```python
 mdc.create_dataset(dataset_name = 'male_brain_tumor_dataset', filter_list = filters, dataset_type = 'multimodal')
 ```
-Done! The dataset is ready to use now. Let's see how many cases and images were included:
+Done! The dataset is ready to use now.
+
+## 🔍 First Approach to the Data
+Let's see how many cases and images were included:
 ```python
 print(f"Amount of patients: {len(mdc.filtered_cases)}")
 print(f"Amount of images: {len(mdc.filtered_image_metadata_df)}")
@@ -47,7 +48,7 @@ print(f"Amount of images: {len(mdc.filtered_image_metadata_df)}")
 Amount of patients: 10243
 Amount of images: 352
 ```
-Great! Now let's take a look at one example image and its corresponding clinical case. We will create a specific function for this purpose.
+Nice! Now let's take a look at one example image and its corresponding clinical case. We will create a specific function for this purpose.
 
 ```python
 from IPython.display import Image, Markdown, display
@@ -82,7 +83,7 @@ def display_example(mdc, image_index):
   display(Markdown(f"**Citation Information:**"))
   display(citation)
 ```
-
+This is how the first case of the dataset looks like:
 ```python
 display_example(mdc, image_index = 0)
 ```
