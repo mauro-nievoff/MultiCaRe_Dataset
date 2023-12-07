@@ -129,7 +129,7 @@ Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal 
 ```
 ## :wave: Final Words
 
-That's all the basics that you need to know to create a customized subset based on the MultiCaRe Dataset. I hope this was useful! 😄
+That's all the basics that you need to know to create a customized subset based on the MultiCaRe Dataset. I hope this was useful!
 
 Just a few comments before you leave:
 
