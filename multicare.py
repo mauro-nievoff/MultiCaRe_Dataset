@@ -337,6 +337,14 @@ Dataset Information:
       file.write(readme_string)
 
     print(f"The {self.dataset_name} was successfully created!")
+    if self.dataset_type in ['image', 'multimodal']:
+      comments_string = '''
+Suggestions:
+- Image captions: If you intend to use them, consider prioritizing images with 'split_during_preprocessing' == False.
+  Many captions needed to be split during caption preprocessing, and the resulting strings may have some minor issues such as extra special characters or wrong capitalization.
+- Image labels: They were created programatically based on image captions (they were not annotated manually).
+  If you intend to use image labels, consider having them manually reviewed by a medical doctor or an SME.'''
+      print(comments_string)
 
   def _get_term_matches(self, article_dict, filter_dict):
     '''This method is used to use match keywords or mesh terms to the string lists from the corresponding filters.'''
