@@ -36,7 +36,7 @@ Finally, let's create the dataset using these filters and selecting the type of 
 ```python
 mdc.create_dataset(dataset_name = 'male_brain_tumor_dataset', filter_list = filters, dataset_type = 'multimodal')
 ```
-Done! The dataset is ready to use now.
+Done! The dataset is ready to use now. If you want to see a more detailed demo, please refer to [this notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/demos/Extended_Demo.ipynb).
 
 ## 🔍 First Approach to the Data
 Let's see how many cases and images were included:
