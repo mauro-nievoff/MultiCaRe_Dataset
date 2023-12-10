@@ -349,18 +349,28 @@ Suggestions:
   def _get_term_matches(self, article_dict, filter_dict):
     '''This method is used to use match keywords or mesh terms to the string lists from the corresponding filters.'''
 
+    if 'match_type' in dct.keys():
+      match_type = dct['match_type']
+    else:
+      match_type = 'full_match'
+
+    if 'operator' in dct.keys():
+      logical_operator = filter_dict['operator']
+    else:
+      logical_operator = 'all'
+    
     article_inclusion = True
     if article_dict[filter_dict['field']] is None:
       terms = []
     else:
       terms = [t.lower() for t in article_dict[filter_dict['field']]]
-    if filter_dict['operator'] == 'all':
+    if logical_operator == 'all':
       for string in filter_dict['string_list']:
-        if filter_dict['match_type'] == 'full_match':
+        if match_type == 'full_match':
           if string.lower() not in terms:
             article_inclusion = False
             break
-        elif filter_dict['match_type'] == 'partial_match':
+        elif match_type == 'partial_match':
           if terms == []:
             article_inclusion = False
             break
@@ -370,25 +380,25 @@ Suggestions:
               if (string.lower() in term):
                 article_inclusion = True
                 break
-    elif filter_dict['operator'] == 'any':
+    elif logical_operator == 'any':
       for string in filter_dict['string_list']:
         if terms == []:
           article_inclusion = False
           break
-        elif filter_dict['match_type'] == 'full_match':
+        elif match_type == 'full_match':
           if string.lower() in terms:
             break
-        elif filter_dict['match_type'] == 'partial_match':
+        elif match_type == 'partial_match':
           for term in terms:
             if string.lower() in term:
               break
-    elif filter_dict['operator'] == 'none':
+    elif logical_operator == 'none':
       for string in filter_dict['string_list']:
-        if filter_dict['match_type'] == 'full_match':
+        if match_type == 'full_match':
           if string.lower() in terms:
             article_inclusion = False
             break
-        elif filter_dict['match_type'] == 'partial_match':
+        elif match_type == 'partial_match':
           for term in terms:
             if string.lower() in term:
               article_inclusion = False
