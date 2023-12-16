@@ -292,7 +292,7 @@ class MedicalDatasetCreator():
       self.case_df = pd.merge(self.case_df, image_counts)
       self.case_df['amount_of_images'].fillna(0, inplace=True)
       self.case_df['image_folder'] = self.case_df.apply(lambda x: f"images/{x['case_id'][:4]}/{x['case_id'][:6]}/{x['case_id']}", axis = 1)
-      self.case_df[case_df['amount_of_images'] == 0]['image_folder'] = 'None'
+      self.case_df[self.case_df['amount_of_images'] == 0]['image_folder'] = 'None'
       self.case_df.to_csv(f"{self.directory}/{self.dataset_name}/cases.csv", index = False)
 
     ### The image_metadata.json file is created for image and multimodal dataset, and images are copied to their corresponding paths
