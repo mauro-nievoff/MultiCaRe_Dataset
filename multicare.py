@@ -313,8 +313,8 @@ class MedicalDatasetCreator():
 
     if self.dataset_type == 'case_series':
       for idx in range(len(self.filtered_image_metadata_df)):
-        file_path = mdc.filtered_image_metadata_df['file_path'][idx]
-        patient_id = mdc.filtered_image_metadata_df['patient_id'][idx]
+        file_path = self.filtered_image_metadata_df['file_path'][idx]
+        patient_id = self.filtered_image_metadata_df['patient_id'][idx]
         new_path = f"{file_path.replace(patient_id.split('_')[0] + '_', patient_id + '/')}"
         old_path = f"{self.directory}/whole_multicare_dataset/{'/'.join(file_path.split('/')[3:])}"
         os.makedirs(os.path.dirname(new_path), exist_ok=True)
