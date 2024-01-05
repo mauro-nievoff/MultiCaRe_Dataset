@@ -5,6 +5,8 @@ The [MultiCaRe Dataset](https://zenodo.org/records/10079370) is a dataset of cli
 - Almost 100K patients and 400K medical doctors and researchers were involved in the creation of the articles included in the dataset (see metadata.parquet for citations)
 - The dataset contains images and cases from different medical specialties, such as oncology, cardiology, surgery and pathology
 
+For a detailed insight about the contents of this dataset, please refer to this [data article](https://www.sciencedirect.com/science/article/pii/S2352340923010351) published in Data In Brief.
+
 You can find further details about how the dataset was created by reading the notebooks from the [Dataset_Creation_Process folder](https://github.com/mauro-nievoff/MultiCaRe_Dataset/tree/main/Dataset_Creation_Process).
 
 ## ✅ Create Your Own Dataset
@@ -125,8 +127,14 @@ __Citation Information:__
  'license': 'CC BY-NC'}
 
 ## 🤓 How to cite
-If you use this dataset, please cite:
+If you use this dataset, please cite.
 
+- Data Article from Data In Brief:
+```
+Nievas Offidani, M. A., & Delrieux, C. A. (2024). Dataset of clinical cases, images, image labels and captions from open access case reports from PubMed Central (1990–2023). In Data in Brief (Vol. 52, p. 110008). Elsevier BV. https://doi.org/10.1016/j.dib.2023.110008
+```
+
+- Dataset from Zenodo:
 ```
 Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal Case Report Dataset with Clinical Cases, Labeled Images and Captions from Open Access PMC Articles (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079370
 ```
