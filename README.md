@@ -40,7 +40,7 @@ mdc.create_dataset(dataset_name = 'male_brain_tumor_dataset', filter_list = filt
 ```
 Done! The dataset is ready to use now.
 
-- If you want to see a more detailed demo, please refer to [this notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/demos/Extended_Demo.ipynb).
+- If you want to see a more detailed demo, please refer to [this notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/demos/extended_demo.ipynb).
 - If you want to create a case series dataset without coding, please refer to [this other notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/demos/create_your_own_case_series.ipynb).
 
 ## 🔍 First Approach to the Data
