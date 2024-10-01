@@ -288,7 +288,7 @@ class MedicalDatasetCreator():
       self.case_df.to_csv(f"{self.directory}/{self.dataset_name}/cases.csv", index = False)
     elif self.dataset_type == 'case_series':
       self.case_df['link'] = self.case_df['pmcid'].apply(lambda x: f"https://www.ncbi.nlm.nih.gov/pmc/articles/{x}/")
-      image_counts = pd.DataFrame(self.filtered_image_metadata_df['patient_id'].value_counts()).reset_index().rename({'patient_id': 'amount_of_images', 'index': 'case_id'}, axis = 1)
+      image_counts = pd.DataFrame(self.filtered_image_metadata_df['patient_id'].value_counts()).reset_index().rename({'count': 'amount_of_images', 'patient_id': 'case_id'}, axis = 1)
       self.case_df = pd.merge(self.case_df, image_counts)
       self.case_df['amount_of_images'].fillna(0, inplace=True)
       self.case_df['image_folder'] = self.case_df.apply(lambda x: f"images/{x['case_id'][:4]}/{x['case_id'][:6]}/{x['case_id']}", axis = 1)
