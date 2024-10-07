@@ -9,6 +9,14 @@ For a detailed insight about the contents of this dataset, please refer to this 
 
 You can find further details about how the dataset was created by reading the notebooks from the [Dataset_Creation_Process folder](https://github.com/mauro-nievoff/MultiCaRe_Dataset/tree/main/Dataset_Creation_Process).
 
+A 20-minute video tutorial is available on [YouTube](http://www.youtube.com/watch?v=LeVdLKvfQNc&t).
+
+<p align="center">
+  <a href="http://www.youtube.com/watch?v=LeVdLKvfQNc&t">
+    <img src="https://github.com/user-attachments/assets/fd6a9d56-e880-46d0-9348-a6ad85f5d258" alt="multicare_tutorial_image">
+  </a>
+</p>
+
 ## ✅ Create Your Own Dataset
 
 While you may find the whole dataset useful, you probably only need a subset of it based on your specific use case. In order to create a specific subset, first you need to clone this repository and import the MedicalDatasetCreator class:
