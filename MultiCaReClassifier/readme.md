@@ -28,6 +28,7 @@ predictions = MultiCaReClassifier(image_folder = '/sample/image/folder/path')
 predictions.data.head()
 ```
 
+The confusion matrices of all the models from the model ensemble can be found in the confusion_matrices folder.
 
 **Model Training by:** Facundo Roffet
 
