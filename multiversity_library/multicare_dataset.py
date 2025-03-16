@@ -12,12 +12,13 @@ import io
 
 class MedicalDatasetCreator():
 
-  def __init__(self, directory = 'MultiCaRe', master_dataset_path = '', version = 2):
+  def __init__(self, directory = 'MultiCaRe', master_dataset_path = '', version_id = '10079369'):
 
     '''The MedicalDatasetCreator class is used to create datasets based on the MultiCaRe Dataset given a list of filters and a dataset type.
 
     - directory (str): Name of the directory that will contain the MultiCaRe Dataset and all the datasets that are created based on it.
     - master_dataset_path (str): Name of the directory that contains the main MultiCaRe Dataset. By default, f'{directory}/whole_multicare_dataset' is considered.
+    - version_id (str): ID of the version of the dataset (number found in the URL of the version: https://zenodo.org/records/{version_id}). As a default, the latest version is downloaded, using the conceptrecid (10079369). For version 1, please use use the multicare_v1 module from multiversity instead.
     '''
 
     ### Creation of the directory
@@ -30,8 +31,13 @@ class MedicalDatasetCreator():
     for folder in [self.directory, self.whole_dataset_path]:
       if not os.path.exists(folder):
         os.makedirs(folder)
-
-    self.version = version
+        
+    if version_id == '10079369':
+      self.version_id = json.loads(requests.get(f"https://zenodo.org/api/records/10079369").content)['id']
+    elif version_id == '10079370':
+      raise Exception("For version 1 (version id 10079369), use the multicare_v1 module from multiversity.")
+    else:
+      self.version_id = version_id
 
     ### The MultiCaRe Dataset is downloaded and unpacked
     if os.listdir(self.whole_dataset_path) == []:
@@ -72,10 +78,7 @@ class MedicalDatasetCreator():
 
     '''Method used to download and unzip the MultiCaRe Dataset from Zenodo. For version 1, use the multicare_v1 module from multiversity.'''
 
-    if int(self.version) == 2:
-      zenodo_id = '13936721'
-
-    response = requests.get(f"https://zenodo.org/api/records/{zenodo_id}/files-archive", stream=True)
+    response = requests.get(f"https://zenodo.org/api/records/{self.version_id}/files-archive", stream=True)
 
     if response.status_code == 200:
       # Open the local file for writing in binary mode
@@ -351,7 +354,7 @@ Dataset Information:
 - Type: {self.dataset_type}
 - Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}
 - Filters: {self.full_filter_list}
-- MultiCaRe version: {self.version}
+- MultiCaRe version ID: {self.version_id}
 
 1. Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal Case Report Dataset with Clinical Cases, Labeled Images and Captions from Open Access PMC Articles (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079370
 '''
@@ -543,7 +546,7 @@ Dataset Information:
   - Name: {dataset_dict['dataset_name']}
   - Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}
   - Dict for dataset creation: {dataset_dict}
-  - MultiCaRe version: {self.version}
+  - MultiCaRe version ID: {self.version_id}
 
   1. Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal Case Report Dataset with Clinical Cases, Labeled Images and Captions from Open Access PMC Articles (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079370
   '''
