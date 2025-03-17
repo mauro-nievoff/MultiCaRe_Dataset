@@ -1,4 +1,4 @@
-# 🏥 MultiCaRe 2.0 - A Multi-Modal Clinical Dataset
+# 🏥 MultiCaRe - A Multi-Modal Clinical Dataset
 
 The [MultiCaRe dataset](https://zenodo.org/records/13936721) is an open-source clinical case dataset for medical image classification and multimodal AI applications. Some facts about it:
 - It contains open-access and de-identified data from over __72K case reports__ from PubMed Central, summing up more than __93K clinical cases__ and __130K images__
