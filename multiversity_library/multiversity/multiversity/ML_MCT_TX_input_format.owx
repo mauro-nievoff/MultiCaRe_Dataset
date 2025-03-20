@@ -1,0 +1,2544 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:webprotege:ontology:31c3721e-63fd-4dd8-9147-0355effb5d54"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:webprotege:ontology:31c3721e-63fd-4dd8-9147-0355effb5d54">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R0QvfFJLpVXwUNl06Stx6i"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R0zwjeeOxEMFIbE4LX9RfY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R64ZsdLKbCp8cvHXkwuL6G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R78Arz1Te4DYd44CgD7DFLl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7n5WTHDmYMG3MKtEYW7ZdI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7yMQGPMZyxbyui1aLliYi3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R88o44Mx0vaYn41JFRu4VvA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8CSYxG1cTpbgnQvSYrz1Ww"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8cAirLEsWBu31EfI8DZVbO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8lcCMXdGrnlylXeJI8xA90"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8tfZtUmqBQgxm4Mn1hmLqW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8wbz9GXaTaQ59Jdpt3uaVt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9KRLtM9tmIZ4dwOnjCRv2u"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9Q26mBBzaPsMXHstD6tYlC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9q8ZWqNBeHBvjkURCI3Ipu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9uaaxrM71lOByIVpi7geiM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9xClcdKwNF3G15M59GLktk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBO70MXG9XaOu0ZjEgnJZkn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBWxpP8CCXGGnQalhNKqdQe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBsDB6tjIcZ644AJ5ArSAgt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC4xfYDnpEWneT5VxuL4iN6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC8MY4DFxuKqGe9O8oxGtZS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCSx755lzzWO3Ch4dlsj2WG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCYEwafZAVT6EXcAXdqrRqj"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCbT0bw01bURWixQDK79TEd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RChsMATtC7mxmdQNlrYyNA6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCp6VZ2VyS9o1bsaL601ZxL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCrzJ8FFvGyA7ScdG8R3Rgt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCv9v0oI7Q80GobH2wxk9kS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RD3dRkSJV45WhRQrCZi5bsk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDI5wRBAvszGBImfMcYnkCQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDMsMNWao1UCfFZCXtJDqLc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDlJEYOuhJe8vg6kjNfPgZq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDlKhtkicjoXVHxR2iqqRMB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDpfrC4k4rbETFGRK8sVLv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDpzQ4nV6QkyatA2GahyaNJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RFRRJm1ZEkjTz04RKxuh0X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RLTWIOF5FLheGHFUIb3AsR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RSActaBVBndUWqpjzTP8wo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RThcIrphJo2AhtIc9GyMQH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RYYtOWs6YYOpKhdH1pSqVJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RhJGB1s6ExLydlCynxWvXw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RjkEmzQjPRjcWxaqCprqu7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rs2zbPnSGvcfBARLOAUlN4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rt9Immf5QMtHXrfq66wbw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RwhA2YXUmnM8VcJYjKFfzT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RxBi11u8LDh0HHDGLb8v2U"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RfFHYfgtGOX4ZK22D0CuBF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/Rklhbfn9R20MoNKMk2tB58"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RVX5skzASPmyk5yCQbj3hO"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R0QvfFJLpVXwUNl06Stx6i"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R0zwjeeOxEMFIbE4LX9RfY"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R64ZsdLKbCp8cvHXkwuL6G"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R78Arz1Te4DYd44CgD7DFLl"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7n5WTHDmYMG3MKtEYW7ZdI"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7yMQGPMZyxbyui1aLliYi3"/>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RChsMATtC7mxmdQNlrYyNA6"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R88o44Mx0vaYn41JFRu4VvA"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8CSYxG1cTpbgnQvSYrz1Ww"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/Rt9Immf5QMtHXrfq66wbw"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8cAirLEsWBu31EfI8DZVbO"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu"/>
+        <Class IRI="http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+        <Class IRI="http://webprotege.stanford.edu/RThcIrphJo2AhtIc9GyMQH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8lcCMXdGrnlylXeJI8xA90"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel"/>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8tfZtUmqBQgxm4Mn1hmLqW"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8wbz9GXaTaQ59Jdpt3uaVt"/>
+        <Class IRI="http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/Rt9Immf5QMtHXrfq66wbw"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9KRLtM9tmIZ4dwOnjCRv2u"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/R88o44Mx0vaYn41JFRu4VvA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9Q26mBBzaPsMXHstD6tYlC"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9"/>
+        <Class IRI="http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY"/>
+        <Class IRI="http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <Class IRI="http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <Class IRI="http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+            <Class IRI="http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9q8ZWqNBeHBvjkURCI3Ipu"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9uaaxrM71lOByIVpi7geiM"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi"/>
+        <Class IRI="http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9xClcdKwNF3G15M59GLktk"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds"/>
+        <Class IRI="http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+        <Class IRI="http://webprotege.stanford.edu/RThcIrphJo2AhtIc9GyMQH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7"/>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+        <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBO70MXG9XaOu0ZjEgnJZkn"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBWxpP8CCXGGnQalhNKqdQe"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBsDB6tjIcZ644AJ5ArSAgt"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC4xfYDnpEWneT5VxuL4iN6"/>
+        <Class IRI="http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC8MY4DFxuKqGe9O8oxGtZS"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCSx755lzzWO3Ch4dlsj2WG"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCYEwafZAVT6EXcAXdqrRqj"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCbT0bw01bURWixQDK79TEd"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RChsMATtC7mxmdQNlrYyNA6"/>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCp6VZ2VyS9o1bsaL601ZxL"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCrzJ8FFvGyA7ScdG8R3Rgt"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCv9v0oI7Q80GobH2wxk9kS"/>
+        <Class IRI="http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RD3dRkSJV45WhRQrCZi5bsk"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe"/>
+        <Class IRI="http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDI5wRBAvszGBImfMcYnkCQ"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDMsMNWao1UCfFZCXtJDqLc"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDlJEYOuhJe8vg6kjNfPgZq"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDlKhtkicjoXVHxR2iqqRMB"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDpfrC4k4rbETFGRK8sVLv"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDpzQ4nV6QkyatA2GahyaNJ"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RFRRJm1ZEkjTz04RKxuh0X"/>
+        <Class IRI="http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RLTWIOF5FLheGHFUIb3AsR"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+        <Class IRI="http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RfFHYfgtGOX4ZK22D0CuBF"/>
+            <Class IRI="http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RfFHYfgtGOX4ZK22D0CuBF"/>
+            <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RSActaBVBndUWqpjzTP8wo"/>
+        <Class IRI="http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RYYtOWs6YYOpKhdH1pSqVJ"/>
+        <Class IRI="http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RYYtOWs6YYOpKhdH1pSqVJ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg"/>
+            <Class IRI="http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D"/>
+        <Class IRI="http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RhJGB1s6ExLydlCynxWvXw"/>
+        <Class IRI="http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RjkEmzQjPRjcWxaqCprqu7"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+        <Class IRI="http://webprotege.stanford.edu/RThcIrphJo2AhtIc9GyMQH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rs2zbPnSGvcfBARLOAUlN4"/>
+        <Class IRI="http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rt9Immf5QMtHXrfq66wbw"/>
+        <Class IRI="http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RwhA2YXUmnM8VcJYjKFfzT"/>
+        <Class IRI="http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RxBi11u8LDh0HHDGLb8v2U"/>
+        <Class IRI="http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RfFHYfgtGOX4ZK22D0CuBF"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/description</IRI>
+        <Literal>Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R0QvfFJLpVXwUNl06Stx6i</IRI>
+        <Literal>A detailed dental X-ray focusing on the area around the tip of a tooth’s root.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R0QvfFJLpVXwUNl06Stx6i</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/312206004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R0QvfFJLpVXwUNl06Stx6i</IRI>
+        <Literal>periapical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU</IRI>
+        <Literal>Positron Emission Tomography (PET) is a nuclear medicine imaging technique that detects metabolic activity in tissues. It is often used for cancer detection, brain disorders, and cardiac assessments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/82918005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU</IRI>
+        <Literal>positron emission tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R0zKEaGdpCuu6bsNUy9NvU</IRI>
+        <Literal>pet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R0zwjeeOxEMFIbE4LX9RfY</IRI>
+        <Literal>High-resolution photographs taken using a slit lamp microscope to document external and anterior segment structures of the eye, such as the cornea, conjunctiva, and iris.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R0zwjeeOxEMFIbE4LX9RfY</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/16306001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R0zwjeeOxEMFIbE4LX9RfY</IRI>
+        <Literal>slit_lamp_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9</IRI>
+        <Literal>This class refers to images that include only the anatomical region of the chest that includes the mammary glands (such as mammographies).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/181131000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R3Lh3sSUgDOmxPU4tBvEW9</IRI>
+        <Literal>breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU</IRI>
+        <Literal>An imaging approach performed through the abdominal wall.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/66739002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R4nOy0E1mkZ2r2h0OWO1CU</IRI>
+        <Literal>transabdominal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R64ZsdLKbCp8cvHXkwuL6G</IRI>
+        <Literal>The distal part of the upper limb.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R64ZsdLKbCp8cvHXkwuL6G</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302539009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R64ZsdLKbCp8cvHXkwuL6G</IRI>
+        <Literal>hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R78Arz1Te4DYd44CgD7DFLl</IRI>
+        <Literal>A non-invasive imaging technique that captures natural fluorescence emitted by certain eye structures, primarily used to evaluate retinal and macular health, such as detecting lipofuscin in retinal pigment epithelium.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R78Arz1Te4DYd44CgD7DFLl</IRI>
+        <Literal>FAF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R78Arz1Te4DYd44CgD7DFLl</IRI>
+        <Literal>autofluorescence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58</IRI>
+        <Literal>Visual representations of data, often used to summarize patient information, trends, or results. Examples include graphs, tables, and other diagrammatic data displays.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/706825008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58</IRI>
+        <Literal>graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7H6GpVDpn65RG2azhEqF58</IRI>
+        <Literal>chart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn</IRI>
+        <Literal>Single Photon Emission Computed Tomography (SPECT) is a nuclear imaging technique that provides 3D images of the body by detecting gamma rays emitted by a radiotracer. It is used for brain, heart, and bone imaging.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/260222006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn</IRI>
+        <Literal>single photon emission computed tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7I6PJuueYzrkW55STNdKAn</IRI>
+        <Literal>spect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7lyoebCkMvD9jhkC05uGuc</IRI>
+        <Literal>preprocessing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R7n5WTHDmYMG3MKtEYW7ZdI</IRI>
+        <Literal>A staining method used to identify fungi and basement membranes. Commonly used in diagnosing infections like Pneumocystis jirovecii or visualizing glomerular structures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R7n5WTHDmYMG3MKtEYW7ZdI</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/104213005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7n5WTHDmYMG3MKtEYW7ZdI</IRI>
+        <Literal>methenamine_silver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R7yMQGPMZyxbyui1aLliYi3</IRI>
+        <Literal>A minimally invasive procedure for examining and treating joints using an arthroscope. Commonly used for knees, shoulders, and other joints to diagnose and repair injuries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R7yMQGPMZyxbyui1aLliYi3</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/13714004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7yMQGPMZyxbyui1aLliYi3</IRI>
+        <Literal>arthroscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx</IRI>
+        <Literal>A procedure to visualize the larynx and vocal cords, typically used to diagnose voice disorders, throat pain, or airway blockages.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/28760000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R84O1vgTwRzvRShQowieWJx</IRI>
+        <Literal>laryngoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI</IRI>
+        <Literal>Images specifically focused on the eye and surrounding structures, typically captured using modalities such as fundus photography, optical coherence tomography (OCT), or slit-lamp imaging.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/118906003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R85NyZAPR5QYmDDXko28OGI</IRI>
+        <Literal>ophthalmic_imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71</IRI>
+        <Literal>Magnetic Resonance Imaging (MRI) uses strong magnetic fields and radio waves to create detailed images of organs and tissues. It is particularly useful for imaging the brain, spine, muscles, and soft tissues.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/113091000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71</IRI>
+        <Literal>magnetic resonance imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R87HBzbjsQCxtdsz91g8g71</IRI>
+        <Literal>mri</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R88o44Mx0vaYn41JFRu4VvA</IRI>
+        <Literal>ophthalmic_angiography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8CSYxG1cTpbgnQvSYrz1Ww</IRI>
+        <Literal>A cytological stain used in the Pap test for cervical cancer screening. It differentiates between basophilic, eosinophilic, and neutral cell components.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8CSYxG1cTpbgnQvSYrz1Ww</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/16224251000119106</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8CSYxG1cTpbgnQvSYrz1Ww</IRI>
+        <Literal>papanicolaou</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi</IRI>
+        <Literal>Images of tissues and cells, often obtained using microscopes. Examples include histopathological slides and cytological preparations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/117259009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi</IRI>
+        <Literal>microscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8MBcnkQeHxsKykHxsRKEIi</IRI>
+        <Literal>pathology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS</IRI>
+        <Literal>Internal imaging obtained using endoscopic devices, capturing detailed views of organs or tissues via minimally invasive techniques. Examples: colonoscopy, bronchoscopy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/423827005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8NXgP1dplYnD0aRSs4aPHS</IRI>
+        <Literal>endoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU</IRI>
+        <Literal>A procedure using a hysteroscope to examine the inside of the uterus, often for diagnosing or treating conditions like fibroids, polyps, or abnormal bleeding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/233545006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8YWIIgQ4uUrsNEbb6b7RVU</IRI>
+        <Literal>hysteroscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8cAirLEsWBu31EfI8DZVbO</IRI>
+        <Literal>The joint connecting the upper arm to the forearm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8cAirLEsWBu31EfI8DZVbO</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182169008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8cAirLEsWBu31EfI8DZVbO</IRI>
+        <Literal>elbow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <Literal>Electrocardiography (EKG) measures the heart&apos;s electrical activity over time through electrodes on the skin. It is essential for diagnosing heart conditions like arrhythmias, myocardial infarction, and other cardiac abnormalities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/29303009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <Literal>ecg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <Literal>electrocardiogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <Literal>electrocardiography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8df9ntrAoFh6PHOZsPeDIu</IRI>
+        <Literal>ekg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8h4XwiM6kBwK8wR5e5Xwhr</IRI>
+        <Literal>anatomical_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8lcCMXdGrnlylXeJI8xA90</IRI>
+        <Literal>The upper portion of the leg, extending from the hip to the knee.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8lcCMXdGrnlylXeJI8xA90</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302544002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8lcCMXdGrnlylXeJI8xA90</IRI>
+        <Literal>thigh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel</IRI>
+        <Literal>Refers to the entire body, encompassing all anatomical regions, from the head to the feet, often used in imaging to represent or study the full body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/361348008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel</IRI>
+        <Literal>entire body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8q9v591lizCDrGXDTFVGel</IRI>
+        <Literal>whole_body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp</IRI>
+        <Literal>Optical Coherence Tomography (OCT) is a non-invasive imaging technique that provides high-resolution cross-sectional images of retinal and other ocular structures. Widely used in the diagnosis and management of retinal and macular diseases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/392010000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp</IRI>
+        <Literal>optical coherence tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8rczsibLNZFCZ2XOBM9kp</IRI>
+        <Literal>oct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8tfZtUmqBQgxm4Mn1hmLqW</IRI>
+        <Literal>The joint that connects the thigh to the lower leg.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8tfZtUmqBQgxm4Mn1hmLqW</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182204005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8tfZtUmqBQgxm4Mn1hmLqW</IRI>
+        <Literal>knee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW</IRI>
+        <Literal>Refers to the upper extremity of the body, including the shoulder, arm, elbow, forearm, wrist, and hand. It is involved in movements such as lifting, gripping, and manipulating objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182245002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8tmR4pDEAX490VKZVbtzwW</IRI>
+        <Literal>upper_limb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8wbz9GXaTaQ59Jdpt3uaVt</IRI>
+        <Literal>Clinical photographs of the oral cavity, including teeth, gums, tongue, and other intraoral structures. Commonly used in dentistry and oral surgery for diagnosis, treatment planning, and documentation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8wbz9GXaTaQ59Jdpt3uaVt</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/103745006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8wbz9GXaTaQ59Jdpt3uaVt</IRI>
+        <Literal>oral_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7</IRI>
+        <Literal>An endoscopic procedure for examining the colon and rectum. Typically used for screening and diagnosing conditions like colorectal cancer, polyps, or inflammatory bowel disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/73761001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8yYhgCklXfslwCcqGd1IQ7</IRI>
+        <Literal>colonoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ</IRI>
+        <Literal>Imaging or recordings based on electrical activity in the body, such as electrocardiograms (ECG) or electroencephalograms (EEG).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/252814004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8yovc8iIH9L6St8VXjoAkQ</IRI>
+        <Literal>electrography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9</IRI>
+        <Literal>Periodic Acid-Schiff (PAS) stain is used to detect polysaccharides, glycogen, and mucosubstances in tissues. It is particularly useful for identifying fungal infections and basement membranes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/255808002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9</IRI>
+        <Literal>Periodic acid Schiff stain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R90d9piizpYtOTAEgOnKUV9</IRI>
+        <Literal>pas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1</IRI>
+        <Literal>Fluorescence In Situ Hybridization (FISH) is a molecular technique that uses fluorescent probes to identify specific DNA or RNA sequences in tissues or cells, aiding in genetic and chromosomal analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/426329006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1</IRI>
+        <Literal>fluorescence in situ hybridisation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R92BylpT6pnUiH4QR3HtRw1</IRI>
+        <Literal>fish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z</IRI>
+        <Literal>Photographic images used for documentation of clinical conditions or procedures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/169283005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R92M6w6uoW7kdpGRATZOX5Z</IRI>
+        <Literal>medical_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377</IRI>
+        <Literal>Hematoxylin and Eosin (H&amp;E) is the most commonly used histological stain, providing contrast between cell nuclei (blue/purple) and cytoplasm or extracellular matrix (pink).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/104210008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377</IRI>
+        <Literal>hematoxylin and eosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377</IRI>
+        <Literal>hematoxylin-eosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9CeXVhrpEemIBTaUsc6377</IRI>
+        <Literal>h&amp;e</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M</IRI>
+        <Literal>An endoscopic procedure for examining the bladder and urethra, often used to diagnose urinary tract disorders, bladder cancer, or blockages.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/142505009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9DQBgNlHmEnF5yJfJk964M</IRI>
+        <Literal>cystoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9KRLtM9tmIZ4dwOnjCRv2u</IRI>
+        <Literal>Standard color photographs of the retina and optic disc, providing a detailed view of the posterior segment of the eye. Commonly used for diagnosing retinal diseases like diabetic retinopathy and glaucoma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9KRLtM9tmIZ4dwOnjCRv2u</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/20067007</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9KRLtM9tmIZ4dwOnjCRv2u</IRI>
+        <Literal>fundus_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak</IRI>
+        <Literal>General term for imaging techniques that use dye-based methods to visualize blood flow in the retina and choroid, including fluorescein and indocyanine green angiography.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/410442000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9M74lfvTTT3gaNrwJMw7ak</IRI>
+        <Literal>ophtalmic_angiography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd</IRI>
+        <Literal>An internal imaging view using a probe inserted into the vagina.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/54300008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9OQ17xCNrw7iy6hDMZUbJd</IRI>
+        <Literal>transvaginal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9Q26mBBzaPsMXHstD6tYlC</IRI>
+        <Literal>A type of nuclear medicine imaging that uses a gamma camera to capture images based on the distribution of a radiopharmaceutical within the body. Commonly used to assess organ function and detect abnormalities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9Q26mBBzaPsMXHstD6tYlC</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/373205008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9Q26mBBzaPsMXHstD6tYlC</IRI>
+        <Literal>scintigraphy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/241466007</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9</IRI>
+        <Literal>intravascular ultrasound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9SUXvKwCiHhpOzWIXNwGj9</IRI>
+        <Literal>ivus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF</IRI>
+        <Literal>The most common echocardiographic view, where an ultrasound probe is placed on the chest wall to capture images of the heart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/41242001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9ZePbHCBFfOiVSWSR38CnF</IRI>
+        <Literal>transthoracic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t</IRI>
+        <Literal>An imaging view obtained by placing an ultrasound probe in the esophagus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/103383005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9cmCdJfcvXRqGJotbqg06t</IRI>
+        <Literal>transesophageal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY</IRI>
+        <Literal>Electromyography (EMG) records the electrical activity of muscles during rest and movement. It is used to evaluate neuromuscular health and diagnose conditions like peripheral neuropathy or myopathy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/42803009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY</IRI>
+        <Literal>electromyogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY</IRI>
+        <Literal>electromyography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9gS4JO0BsnSR9a4RTTUnCY</IRI>
+        <Literal>emg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/40701008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN</IRI>
+        <Literal>echocardiography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9l7BOdr7pnPmYWBmnlr8uN</IRI>
+        <Literal>echocardiogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/71651007</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3</IRI>
+        <Literal>mammogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9oJakLwOi4HXbAYRhxxnP3</IRI>
+        <Literal>mammography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9q8ZWqNBeHBvjkURCI3Ipu</IRI>
+        <Literal>A stain used to differentiate collagen fibers (red) from muscle and cytoplasm (yellow) in histological sections. Often used in connective tissue studies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9q8ZWqNBeHBvjkURCI3Ipu</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/406957003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9q8ZWqNBeHBvjkURCI3Ipu</IRI>
+        <Literal>van_gieson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV</IRI>
+        <Literal>Refers to the lower extremity of the body, including the thigh, knee, leg, ankle, and foot. It encompasses the bones, muscles, and joints of the lower body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182281004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9sQfcIMTrg8Y3M5K8GEYaV</IRI>
+        <Literal>lower_limb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9uaaxrM71lOByIVpi7geiM</IRI>
+        <Literal>The portion of the arm between the elbow and wrist.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9uaaxrM71lOByIVpi7geiM</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/362741001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9uaaxrM71lOByIVpi7geiM</IRI>
+        <Literal>forearm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi</IRI>
+        <Literal>Electroencephalography (EEG) captures the brain&apos;s electrical activity using electrodes placed on the scalp. Commonly used for diagnosing neurological conditions such as epilepsy, sleep disorders, or brain injuries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/54550000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi</IRI>
+        <Literal>electroencephalogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi</IRI>
+        <Literal>electroencephalography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9utIBGkuFXwl3aE2XD8qKi</IRI>
+        <Literal>eeg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/R9xClcdKwNF3G15M59GLktk</IRI>
+        <Literal>A multi-color stain used to differentiate muscle, collagen, and fibrin in tissues. It highlights collagen in blue or green, cytoplasm in red, and nuclei in dark blue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/R9xClcdKwNF3G15M59GLktk</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/117018006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9xClcdKwNF3G15M59GLktk</IRI>
+        <Literal>masson_trichrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds</IRI>
+        <Literal>Cardiac specific imaging.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB34DISPRrPXh7sik9ig5ds</IRI>
+        <Literal>cardiac_image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBBhhYS3sQevGJ37FqLrbJp</IRI>
+        <Literal>image_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBFoXyed7ah38vfBuJZ4me7</IRI>
+        <Literal>gi_endoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX</IRI>
+        <Literal>Refers to the central core of the body, including the head, neck, and trunk (torso), which houses major organs like the brain, heart, and lungs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/6834003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX</IRI>
+        <Literal>axial skeleton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBMPQ1TUAvqRBHQGNfKoDVX</IRI>
+        <Literal>axial_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBO70MXG9XaOu0ZjEgnJZkn</IRI>
+        <Literal>The joint connecting the thigh to the pelvis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RBO70MXG9XaOu0ZjEgnJZkn</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182201002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBO70MXG9XaOu0ZjEgnJZkn</IRI>
+        <Literal>hip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBWxpP8CCXGGnQalhNKqdQe</IRI>
+        <Literal>A basic stain used for highlighting cell nuclei, bacterial cells, and some tissue structures. Commonly employed in bacteriology and cytology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RBWxpP8CCXGGnQalhNKqdQe</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/406896005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBWxpP8CCXGGnQalhNKqdQe</IRI>
+        <Literal>methylene_blue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx</IRI>
+        <Literal>Computed Tomography (CT) is a medical imaging technique that uses X-rays to create cross-sectional images of the body. It is commonly used for detecting tumors, injuries, infections, and internal bleeding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/77477000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx</IRI>
+        <Literal>computed tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBgzcHrJNdejM5ndobwLZXx</IRI>
+        <Literal>ct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBsDB6tjIcZ644AJ5ArSAgt</IRI>
+        <Literal>The section of the torso located between the chest and pelvis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RBsDB6tjIcZ644AJ5ArSAgt</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302553009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBsDB6tjIcZ644AJ5ArSAgt</IRI>
+        <Literal>abdomen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RC4xfYDnpEWneT5VxuL4iN6</IRI>
+        <Literal>Medical photographs that do not fall into specific categories like skin or oral photographs. These may include images of surgical sites, or medical devices.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC4xfYDnpEWneT5VxuL4iN6</IRI>
+        <Literal>other_medical_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RC8MY4DFxuKqGe9O8oxGtZS</IRI>
+        <Literal>A stain used in cytology and hematology for identifying blood cells, parasites (e.g., Plasmodium), and microorganisms. It is also used for differential blood smears and bone marrow evaluations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RC8MY4DFxuKqGe9O8oxGtZS</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/373646006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC8MY4DFxuKqGe9O8oxGtZS</IRI>
+        <Literal>giemsa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx</IRI>
+        <Literal>A specialized MRI technique used to visualize white matter tracts in the brain. It is commonly used in neurosurgery and research to map brain connectivity and identify important neural pathways.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/448307005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCBhJTuefEGJc0pm9pJ2uTx</IRI>
+        <Literal>tractography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2</IRI>
+        <Literal>An endoscopic procedure for examining the small intestine, typically used for identifying causes of gastrointestinal bleeding or small bowel abnormalities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/235147008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCKiHuUySydyBpWFaAUuMO2</IRI>
+        <Literal>enteroscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ</IRI>
+        <Literal>Esophagogastroduodenoscopy (EGD) is an upper endoscopic procedure used to examine the esophagus, stomach, and duodenum for conditions like ulcers, GERD, or tumors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/392153002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ</IRI>
+        <Literal>esophagogastroscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ</IRI>
+        <Literal>oesophagogastroscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCQvIJP5Dm4eH6zC18LiIQJ</IRI>
+        <Literal>egd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCSx755lzzWO3Ch4dlsj2WG</IRI>
+        <Literal>A histological stain used to detect acidic mucopolysaccharides and glycosaminoglycans, often employed for studying cartilage, connective tissues, and epithelial mucins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCSx755lzzWO3Ch4dlsj2WG</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/117036006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCSx755lzzWO3Ch4dlsj2WG</IRI>
+        <Literal>alcian_blue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCYEwafZAVT6EXcAXdqrRqj</IRI>
+        <Literal>The section of the arm between the shoulder and the elbow.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCYEwafZAVT6EXcAXdqrRqj</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302538001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCYEwafZAVT6EXcAXdqrRqj</IRI>
+        <Literal>upper_arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCbT0bw01bURWixQDK79TEd</IRI>
+        <Literal>A dye primarily used for detecting amyloid deposits in tissues. Under polarized light, amyloid stained with Congo Red exhibits apple-green birefringence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCbT0bw01bURWixQDK79TEd</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/45106005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCbT0bw01bURWixQDK79TEd</IRI>
+        <Literal>congo_red</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK</IRI>
+        <Literal>An imaging view from within blood vessels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/261101003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCdoblpPR9MUYFgpijcOjrK</IRI>
+        <Literal>intravascular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT</IRI>
+        <Literal>SNOMED_ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RChsMATtC7mxmdQNlrYyNA6</IRI>
+        <Literal>airway_endoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H</IRI>
+        <Literal>A staining technique used to identify acid-fast bacteria, such as Mycobacterium tuberculosis. The method highlights bacteria that retain the dye even after exposure to acid-alcohol.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/708056006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H</IRI>
+        <Literal>ziehl-neelsen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCljHuR7yWF5I9OGy5LiT1H</IRI>
+        <Literal>acid_fast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCp6VZ2VyS9o1bsaL601ZxL</IRI>
+        <Literal>Specialized imaging or visual assessment of the anterior chamber angle, used to evaluate and diagnose glaucoma and related conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCp6VZ2VyS9o1bsaL601ZxL</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/76949005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCp6VZ2VyS9o1bsaL601ZxL</IRI>
+        <Literal>gonioscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCrzJ8FFvGyA7ScdG8R3Rgt</IRI>
+        <Literal>Refers to the part of the leg between the knee and ankle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCrzJ8FFvGyA7ScdG8R3Rgt</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/30021000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCrzJ8FFvGyA7ScdG8R3Rgt</IRI>
+        <Literal>lower_leg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS</IRI>
+        <Literal>The chest region, including the ribs, lungs, heart, and major blood vessels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302551006</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS</IRI>
+        <Literal>chest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCsUu61f03MmUCRZdxyKdtS</IRI>
+        <Literal>thorax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RCv9v0oI7Q80GobH2wxk9kS</IRI>
+        <Literal>B-Scan images are ultrasound images of the eye and orbit, often used when visualization is hindered by opaque media, such as cataracts or hemorrhage, to evaluate retinal or orbital conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RCv9v0oI7Q80GobH2wxk9kS</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/241452002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCv9v0oI7Q80GobH2wxk9kS</IRI>
+        <Literal>b_scan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4</IRI>
+        <Literal>Synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RD3dRkSJV45WhRQrCZi5bsk</IRI>
+        <Literal>The joint connecting the lower leg to the foot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RD3dRkSJV45WhRQrCZi5bsk</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/182212002</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD3dRkSJV45WhRQrCZi5bsk</IRI>
+        <Literal>ankle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDE6SwiSxc0L2tqSeHGQGhW</IRI>
+        <Literal>is_composed_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe</IRI>
+        <Literal>Clinical photographs of the skin, used for documenting dermatological conditions such as rashes, lesions, wounds, or skin infections. Commonly employed in dermatology and wound care.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/446078004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe</IRI>
+        <Literal>dermoscopic photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe</IRI>
+        <Literal>dermoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDFjMQduexqj5JjZFtoOQxe</IRI>
+        <Literal>skin_photograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDI5wRBAvszGBImfMcYnkCQ</IRI>
+        <Literal>The anatomical region connecting the head to the torso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDI5wRBAvszGBImfMcYnkCQ</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302550007</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDI5wRBAvszGBImfMcYnkCQ</IRI>
+        <Literal>neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDKOpeSqCuPb9LvI22jX6ff</IRI>
+        <Literal>ultrasound_view</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDMsMNWao1UCfFZCXtJDqLc</IRI>
+        <Literal>A procedure using a bronchoscope to examine the airways and lungs, often used to diagnose or treat conditions like tumors, infections, or obstructions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDMsMNWao1UCfFZCXtJDqLc</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/10847001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDMsMNWao1UCfFZCXtJDqLc</IRI>
+        <Literal>bronchoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <Literal>A non-invasive imaging technique that uses sound waves to create real-time images of internal organs and tissues. It is commonly used in obstetrics, cardiology, and musculoskeletal imaging.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/16310003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <Literal>US</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <Literal>echography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <Literal>ultrasonography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDQXjDMt3Y9CHtuBSeb8KBJ</IRI>
+        <Literal>ultrasound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa</IRI>
+        <Literal>A view along the sagittal plane, dividing the body into left and right sections.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/30730003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa</IRI>
+        <Literal>lateral projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa</IRI>
+        <Literal>lateral view</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDbHnm7TVCzYJ155lfiogaa</IRI>
+        <Literal>sagittal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDklHvEJuZWpuq0Y3AeWapg</IRI>
+        <Literal>maps_to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDlJEYOuhJe8vg6kjNfPgZq</IRI>
+        <Literal>A wide-angle dental X-ray that captures the entire mouth in a single image.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDlJEYOuhJe8vg6kjNfPgZq</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/260487000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDlJEYOuhJe8vg6kjNfPgZq</IRI>
+        <Literal>panoramic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDlKhtkicjoXVHxR2iqqRMB</IRI>
+        <Literal>The joint that connects the upper arm to the torso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDlKhtkicjoXVHxR2iqqRMB</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/361103004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDlKhtkicjoXVHxR2iqqRMB</IRI>
+        <Literal>shoulder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDpfrC4k4rbETFGRK8sVLv</IRI>
+        <Literal>A slanted view, not aligned to the standard anatomical planes (e.g., axial, coronal, or sagittal).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDpfrC4k4rbETFGRK8sVLv</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/399182000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDpfrC4k4rbETFGRK8sVLv</IRI>
+        <Literal>oblique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDpzQ4nV6QkyatA2GahyaNJ</IRI>
+        <Literal>The lower part of the torso, located between the abdomen and thighs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDpzQ4nV6QkyatA2GahyaNJ</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/229765004</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDpzQ4nV6QkyatA2GahyaNJ</IRI>
+        <Literal>pelvis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7</IRI>
+        <Literal>A horizontal cross-sectional view, dividing the body into superior (top) and inferior (bottom) parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/399061009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7</IRI>
+        <Literal>axial projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7</IRI>
+        <Literal>axial view</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDyjPWSNA1tDJLoPcORT1X7</IRI>
+        <Literal>axial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RFRRJm1ZEkjTz04RKxuh0X</IRI>
+        <Literal>The lower part of the leg that includes the toes, arch, and heel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RFRRJm1ZEkjTz04RKxuh0X</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/302545001</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RFRRJm1ZEkjTz04RKxuh0X</IRI>
+        <Literal>foot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RLTWIOF5FLheGHFUIb3AsR</IRI>
+        <Literal>A staining technique to classify bacteria into Gram-positive (purple) or Gram-negative (pink) based on cell wall structure. Essential for microbial diagnostics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RLTWIOF5FLheGHFUIb3AsR</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/708061008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RLTWIOF5FLheGHFUIb3AsR</IRI>
+        <Literal>gram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih</IRI>
+        <Literal>Medical images acquired using radiological techniques, including X-rays, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine scans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/394914008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/ROvmmPuc37v31M6unimWih</IRI>
+        <Literal>radiology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RPmFbJcuJc5NWSFzI9v1uc</IRI>
+        <Literal>postprocessing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RSActaBVBndUWqpjzTP8wo</IRI>
+        <Literal>A general term for techniques that use antibodies to detect specific antigens in tissues or cells. Includes methods like immunohistochemistry and immunofluorescence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RSActaBVBndUWqpjzTP8wo</IRI>
+        <Literal>immunostaining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RThcIrphJo2AhtIc9GyMQH</IRI>
+        <Literal>taxonomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RVX5skzASPmyk5yCQbj3hO</IRI>
+        <Literal>auxiliary_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RYYtOWs6YYOpKhdH1pSqVJ</IRI>
+        <Literal>cardiac_view</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D</IRI>
+        <Literal>A medical imaging technique that uses X-ray radiation to create images of the internal structures of the body, commonly used for bone fractures, lung conditions, and dental exams.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/363680008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D</IRI>
+        <Literal>radiograph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <IRI>http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D</IRI>
+        <Literal>roentgenography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RdMYHmf7L1HeFuaRy8242D</IRI>
+        <Literal>x_ray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RfFHYfgtGOX4ZK22D0CuBF</IRI>
+        <Literal>has_subsidiary_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RhJGB1s6ExLydlCynxWvXw</IRI>
+        <Literal>The joint between the forearm and hand.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RhJGB1s6ExLydlCynxWvXw</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/361289009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RhJGB1s6ExLydlCynxWvXw</IRI>
+        <Literal>wrist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RjkEmzQjPRjcWxaqCprqu7</IRI>
+        <Literal>A view along the frontal (coronal) plane, dividing the body into front (anterior) and back (posterior) sections.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RjkEmzQjPRjcWxaqCprqu7</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/399033003</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RjkEmzQjPRjcWxaqCprqu7</IRI>
+        <Literal>frontal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rklhbfn9R20MoNKMk2tB58</IRI>
+        <Literal>auxiliary_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RmLtnztiQ6lf1vjIdZv3xU</IRI>
+        <Literal>anatomical_view</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/Rs2zbPnSGvcfBARLOAUlN4</IRI>
+        <Literal>Image of the whole thorax.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RVX5skzASPmyk5yCQbj3hO"/>
+        <IRI>http://webprotege.stanford.edu/Rs2zbPnSGvcfBARLOAUlN4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rs2zbPnSGvcfBARLOAUlN4</IRI>
+        <Literal>other_thoracic_image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rt9Immf5QMtHXrfq66wbw</IRI>
+        <Literal>other_endoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RwhA2YXUmnM8VcJYjKFfzT</IRI>
+        <Literal>A dental view focusing on the biting surfaces of the teeth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RwhA2YXUmnM8VcJYjKFfzT</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/260499007</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RwhA2YXUmnM8VcJYjKFfzT</IRI>
+        <Literal>occlusal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RxBi11u8LDh0HHDGLb8v2U</IRI>
+        <Literal>The uppermost part of the body. This class does not include images related to the eyes, as they are contained in the ophthalmic_image class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <IRI>http://webprotege.stanford.edu/RxBi11u8LDh0HHDGLb8v2U</IRI>
+        <IRI>http://purl.bioontology.org/ontology/SNOMEDCT/69536005</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RxBi11u8LDh0HHDGLb8v2U</IRI>
+        <Literal>head</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCf5rOYImj1uZG00tQhnPAT"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://webprotege.stanford.edu/RCyiPuLW4rhI48KohFyl7r4"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
