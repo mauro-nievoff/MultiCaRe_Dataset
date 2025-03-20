@@ -1,0 +1,6 @@
+owlready2
+Bio
+lxml
+Pillow
+torch==2.5.0
+torchvision==0.18.0
