@@ -11,6 +11,7 @@ import importlib.resources as pkg_resources
 import random
 import pandas as pd
 import numpy as np
+import ast
 import pyarrow.parquet as pq
 import cv2
 from google.colab.patches import cv2_imshow
@@ -26,7 +27,7 @@ from multiversity.multiplex_classification import MultiplexDatasetProcessor
 
 class MulticareCreator():
 
-  def __init__(self, email, annotated_ngram_path = '', input_owl_path = '', api_key = '', outcome_directory = 'MultiCaRe', delete_previous_data = False, multiplex_format = False,
+  def __init__(self, email, annotated_ngram_path = '', input_owl_path = '', api_key = '', outcome_directory = 'MultiCaRe', license_types = ['CC BY', 'CC BY-NC-SA', 'CC BY-NC', 'CC0'], delete_previous_data = False, multiplex_format = False,
                max_report_amount = None, search = 'case', data_split = 20, new_dataset = False, gaussian_n = 13, low_canny = 1, high_canny = 20, edge_minimum = 100, min_size = 100, cropping_iterations = 3, image_data_split = 100):
 
     '''
@@ -37,6 +38,7 @@ class MulticareCreator():
     input_owl_path (str): Path to the input taxonomy file with a Decision Rainforest format (used for Multiplex classification). By default, the file included in the multiplex package is used.
     api_key (str, '' by default): API key from NCBI (available at https://www.ncbi.nlm.nih.gov/account/settings/).
     outcome_directory (str, 'MultiCaRe' by default): Path to the folder where that will contain the dataset.
+    license_types (list): List of licenses that are admitted in the dataset (any article with a different license will be filtered out). For all licenses, use an empty list. As a default, the following licenses are included: 'CC BY', 'CC BY-NC-SA', 'CC BY-NC', 'CC0'.
     delete_previous_data (bool, False by default): If true, any file in the main_folder will be deleted before downloading the dataset. If false, the downloading process will continue from the last checkpoint.
     multiplex_format (bool, False by default): if False, there outcome image label dataframe will include only one column with labels, otherwise there will be one column per Basic Classification Task.
     max_report_amount (int, None by default): If not None, the process will stop once this amount of case reports are downloaded.
@@ -53,6 +55,7 @@ class MulticareCreator():
 
     self.email = email
     self.api_key = api_key
+    self.license_types = license_types
     if annotated_ngram_path:
       self.annotated_ngrams_path = annotated_ngram_path
     else:
@@ -108,7 +111,7 @@ class MulticareCreator():
     self.end_year = end_year
 
     # Case reports are downloaded
-    self.crd = CaseReportDownloader(self.email, self.api_key, self.main_folder, self.delete_previous_data, self.max_report_amount, self.search, self.start_year, self.end_year, self.data_split)
+    self.crd = CaseReportDownloader(self.email, self.api_key, self.main_folder, self.delete_previous_data, self.max_report_amount, self.search, self.start_year, self.end_year, self.data_split, self.license_types)
     self.crd.create_dataset()
 
     if previous_pmcid_list:
@@ -133,11 +136,14 @@ class MulticareCreator():
 
     # The updated df is saved and temporary files are removed
     self.caption_df.to_csv(f'{self.crd.main_folder}/captions_and_labels.csv', index = False)
-    if remove_temp_files:
-      self._remove_temporary_files()
     self.classify_medical_images()
+    for col in ['gt_labels_for_semisupervised_classification', 'ml_labels_for_supervised_classification']:
+      if col in self.caption_df.columns:
+        self.caption_df[col] = self.caption_df[col].apply(lambda x: ast.literal_eval(x) if ((isinstance(x, str)) and (len(x) > 0) and (x[0] == '[')) else x)
     self.caption_df['gt_labels_for_semisupervised_classification'] = self.caption_df.apply(lambda x: self._filter_by_incompatibilities(x), axis = 1)
     self.caption_df.to_csv(f'{self.crd.main_folder}/captions_and_labels.csv', index = False)
+    if remove_temp_files:
+      self._remove_temporary_files()
     print('The dataset was successfully created!')
 
   ### Auxiliary methods
@@ -528,6 +534,10 @@ class MulticareCreator():
     else:
       df_path = os.path.join(self.main_folder, 'captions_and_labels.csv')
 
+    for col in ['gt_labels_for_semisupervised_classification', 'ml_labels_for_supervised_classification']:
+      if col in self.caption_df.columns:
+        self.caption_df[col] = self.caption_df[col].apply(lambda x: ast.literal_eval(x) if ((isinstance(x, str)) and (len(x) > 0) and (x[0] == '[')) else x)
+
     snapshot_download(repo_id='mauro-nievoff/MultiCaReClassifier',local_dir=os.getcwd())
 
     from pipeline import MultiCaReClassifier
@@ -704,7 +714,7 @@ class MulticareCreator():
 class CaseReportDownloader():
 
   def __init__(self, email, api_key = '', main_folder = '/content/drive/MyDrive/MultiCaRe_dataset', delete_previous_data = False,
-               max_report_amount = None, search = 'case', start_year = '1990', end_year = '2030', data_split = 20):
+               max_report_amount = None, search = 'case', start_year = '1990', end_year = '2030', data_split = 20, license_types = ['CC BY', 'CC BY-NC-SA', 'CC BY-NC', 'CC0']):
 
     '''
     CaseReportDownloader is a class used to download open access case reports from PubMed Central.
@@ -717,12 +727,14 @@ class CaseReportDownloader():
     start_year (str): The dataset will not include case reports that were published earlier than this start year.
     end_year (str): The dataset will not include case reports that were published later than this end year.
     data_split (int): The dataset will be split into different folders during the process, and the files will be merged at the end into one main json file.
+    license_types (list): List of licenses that are admitted in the dataset (any article with a different license will be filtered out). For all licenses, use an empty list. As a default, the following licenses are included: 'CC BY', 'CC BY-NC-SA', 'CC BY-NC', 'CC0'.
     '''
 
     ## Creating the directory
 
     self.main_folder = main_folder
     self.data_split = data_split
+    self.license_types = license_types
 
     if os.path.exists(self.main_folder):
       if delete_previous_data:
@@ -1127,7 +1139,10 @@ class CaseReportDownloader():
         article_dict['keywords'] = soup.find('infon', {'key': 'kwd'}).text.split(', ')
       except:
         article_dict['keywords'] = None
-      return article_dict
+      if self.license_types and (article_dict['license'] not in self.license_types):
+        pass
+      else:
+        return article_dict
 
   def _merge_paragraphs(self, paragraph_list):
 
