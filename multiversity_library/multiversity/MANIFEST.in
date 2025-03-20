@@ -1,0 +1,3 @@
+include multiversity/data/*.csv
+include multiversity/data/*.owl
+include multiversity/data/*.owx
