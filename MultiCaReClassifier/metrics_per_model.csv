@@ -1,0 +1,14 @@
+model,accuracy,precision,recall,F1-score
+image_type,0.9556,0.9106,0.9180,0.9142
+image_type:electrography,0.9213,0.7933,0.8509,0.8141
+image_type:endoscopy,0.7918,0.7330,0.7058,0.7180
+image_type:medical_photograph,0.8717,0.8209,0.8535,0.8358
+image_type:ophthalmic_imaging,0.9259,0.8890,0.8859,0.8860
+image_type:pathology,0.8423,0.5549,0.4792,0.5012
+image_type:radiology.ultrasound,0.8622,0.8085,0.8643,0.8585
+image_type:radiology~anatomical_region,0.9474,0.7693,0.7767,0.7692
+image_type:radiology~anatomical_region:axial_region,0.8854,0.8172,0.8011,0.8088
+image_type:radiology~anatomical_region:lower_limb,0.6990,0.6721,0.6772,0.6731
+image_type:radiology~anatomical_region:upper_limb,0.6998,0.6399,0.6299,0.6275
+image_type:radiology~anatomical_view,0.8399,0.7872,0.7522,0.7672
+image_type:radiology~main,0.9457,0.7903,0.7864,0.7843
