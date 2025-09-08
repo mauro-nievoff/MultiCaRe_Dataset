@@ -111,14 +111,14 @@ That module works exactly as the deprecated `multicare.py`.
 ## 🤓 How to cite
 If you use this dataset, please cite.
 
-- Data Article from Data In Brief:
+- Data Article:
 ```
-Nievas Offidani, M. A., & Delrieux, C. A. (2024). Dataset of clinical cases, images, image labels and captions from open access case reports from PubMed Central (1990–2023). In Data in Brief (Vol. 52, p. 110008). Elsevier BV. https://doi.org/10.1016/j.dib.2023.110008
+Nievas Offidani, M., Roffet, F., González Galtier, M. C., Massiris, M., & Delrieux, C. (2025). An Open-Source Clinical Case Dataset for Medical Image Classification and Multimodal AI Applications. Data, 10(8), 123. https://doi.org/10.3390/data10080123
 ```
 
 - Dataset from Zenodo:
 ```
-Nievas Offidani, M. (2024). MultiCaRe: An open-source clinical case dataset for medical image classification and multimodal AI applications (2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13936721
+Nievas Offidani, M. (2025). MultiCaRe: An open-source clinical case dataset for medical image classification and multimodal AI applications (version 2.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079369
 ```
 ## :wave: Final words
 
