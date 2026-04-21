@@ -85,18 +85,11 @@ __Citation Information:__
 
 ## :bulb: Useful Resources
 
-1. For a detailed insight about the contents of this dataset, please refer to this [data article](https://www.sciencedirect.com/science/article/pii/S2352340923010351) published in Data In Brief (it describes MultiCaRe 1.0).
+1. For a detailed insight about the contents of this dataset, please refer to this [data article](https://www.mdpi.com/2306-5729/10/8/123) published in MDPI Data.
 2. You can find further details about how the dataset was created by reading the notebooks from the [Dataset_Creation_Process folder](https://github.com/mauro-nievoff/MultiCaRe_Dataset/tree/main/Dataset_Creation_Process).
 3. For more information about the taxonomy, refer to this [folder](https://github.com/mauro-nievoff/MultiCaRe_Dataset/tree/main/MultiCaRe_Taxonomy).
 4. If you want to see a more detailed demo about how to create customized subsets, please refer to [this notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/Demos/customized_subset_creation.ipynb).
 5. If you want to create image classification datasets based on multiple subsets, refer to [this other notebook](https://github.com/mauro-nievoff/MultiCaRe_Dataset/blob/main/Demos/create_image_classification_datasets.ipynb).
-6. A 20-minute video tutorial on MultiCaRe 1.0 is available on [YouTube](http://www.youtube.com/watch?v=LeVdLKvfQNc&t).
-
-<p align="center">
-  <a href="http://www.youtube.com/watch?v=LeVdLKvfQNc&t">
-    <img src="https://github.com/user-attachments/assets/fd6a9d56-e880-46d0-9348-a6ad85f5d258" alt="multicare_tutorial_image">
-  </a>
-</p>
 
 ## 📓 Using an old version of the code
 
