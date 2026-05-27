@@ -356,7 +356,7 @@ Dataset Information:
 - Filters: {self.full_filter_list}
 - MultiCaRe version ID: {self.version_id}
 
-1. Nievas Offidani, M., & Delrieux, C. (2023). The MultiCaRe Dataset: A Multimodal Case Report Dataset with Clinical Cases, Labeled Images and Captions from Open Access PMC Articles (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10079370
+1. Nievas Offidani, M., et al (2025). An Open-Source Clinical Case Dataset for Medical Image Classification and Multimodal AI Applications. Data 2025, 10(8), 123; https://doi.org/10.3390/data10080123
 '''
     with open(f"{self.directory}/{self.dataset_name}/readme.txt", 'w') as file:
       file.write(readme_string)
